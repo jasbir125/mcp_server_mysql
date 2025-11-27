@@ -1,0 +1,23 @@
+STEP 1 — Deactivate the current venv
+deactivate
+
+STEP 2 — Delete the old wrong venv
+rm -rf .venv
+
+STEP 3 — Create a new venv using python3.12
+python3.12 -m venv .venv
+source .venv/bin/activate
+
+python --version
+Python 3.12.x
+
+brew install python@3.12
+brew link python@3.12
+
+/opt/homebrew/bin/python3.12 -m venv .venv
+
+
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python mcp_server_mysql.py

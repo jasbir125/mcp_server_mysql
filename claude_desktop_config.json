@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+      "mssql": {
+        "type": "python",
+        "command": "/.venv/bin/python",
+        "args": [
+          "/mcp_server_mysql.py"
+        ]
+      }
+    }
+  }
+
